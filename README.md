@@ -181,3 +181,29 @@ node 6-multi_languages_loop.js
 # Python is cool
 # JavaScript is amazing
 ```
+
+## Task 7: Multi-C Print
+
+### Description
+
+A Node.js script that prints "C is fun" x times, where x is a command-line argument.
+
+### Requirements
+
+- Use `const`, not `var`
+- Use a loop (`for` or `while`)
+- Use only 2 `console.log()` statements
+- If no argument or invalid, print: `Missing number of occurrences`
+
+### Usage
+
+```bash
+node 7-multi_c.js 2
+# Output:
+# C is fun
+# C is fun
+
+node 7-multi_c.js
+# Output:
+# Missing number of occurrences
+```
