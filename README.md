@@ -119,3 +119,38 @@ node 4-concat.js c
 node 4-concat.js
 # Output: undefined is undefined
 ```
+
+## Task 5: Convert Argument to Integer
+
+### Objective
+
+Write a script that prints:
+
+- `My number: <integer>` if the first argument can be converted to an integer
+- `Not a number` if it cannot
+
+### Requirements
+
+- Use `console.log(...)` for all output
+- Do **not** use `var`
+- Do **not** use `try/catch`
+- Use `parseInt()` and `isNaN()` for validation
+
+### Examples
+
+```bash
+node 5-to_integer.js
+# Output: Not a number
+
+node 5-to_integer.js 89
+# Output: My number: 89
+
+node 5-to_integer.js "89"
+# Output: My number: 89
+
+node 5-to_integer.js 89.89
+# Output: My number: 89
+
+node 5-to_integer.js School
+# Output: Not a number
+```
