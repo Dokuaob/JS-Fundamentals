@@ -207,3 +207,29 @@ node 7-multi_c.js
 # Output:
 # Missing number of occurrences
 ```
+
+## Task 8: Print a Square
+
+### Description
+
+This script prints a square made of the character `X`.
+
+### Requirements
+
+- Argument: Size of square (positive integer)
+- If missing or invalid: print `Missing size`
+- Must use `const` and a loop
+- Must only use `console.log(...)`
+
+### Usage
+
+```bash
+node 8-square.js 2
+# Output:
+# XX
+# XX
+
+node 8-square.js
+# Output:
+# Missing size
+```
