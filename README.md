@@ -65,3 +65,31 @@ node 2-arguments.js Hello
 node 2-arguments.js Hello World
 # Output: Arguments found
 ```
+
+## Task 3: Print First Argument
+
+### Objective
+
+Write a script that prints the **first argument** passed to it.
+
+### Requirements
+
+- If no argument is passed: print `No argument`
+- If one or more arguments are passed: print the **first** one only
+- Use `console.log(...)` for all output
+- Do **not** use `var`
+- Do **not** use `.length`
+- Use `process.argv[2]` to access the argument
+
+### Usage
+
+```bash
+node 3-value_argument.js
+# Output: No argument
+
+node 3-value_argument.js Hello
+# Output: Hello
+
+node 3-value_argument.js Hello World
+# Output: Hello
+```
