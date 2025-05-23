@@ -154,3 +154,30 @@ node 5-to_integer.js 89.89
 node 5-to_integer.js School
 # Output: Not a number
 ```
+
+## Task 6: Multi-language Loop
+
+### Objective
+
+Write a script that prints 3 lines using:
+
+- An array of strings
+- A loop
+- Only one `console.log(...)` call
+- No `if/else` statements
+
+### Lines to Print
+
+- C is fun
+- Python is cool
+- JavaScript is amazing
+
+### Example
+
+```bash
+node 6-multi_languages_loop.js
+# Output:
+# C is fun
+# Python is cool
+# JavaScript is amazing
+```
