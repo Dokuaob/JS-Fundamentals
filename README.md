@@ -93,3 +93,29 @@ node 3-value_argument.js Hello
 node 3-value_argument.js Hello World
 # Output: Hello
 ```
+
+## Task 4: Concatenate Two Arguments
+
+### Objective
+
+Write a script that prints **two arguments** passed to it in the following format:
+<first_argument> is <second_argument>
+
+### Requirements
+
+- Use `console.log(...)` for all output
+- Do **not** use `var`
+- Missing arguments should print as `undefined`
+
+### Examples
+
+```bash
+node 4-concat.js c cool
+# Output: c is cool
+
+node 4-concat.js c
+# Output: c is undefined
+
+node 4-concat.js
+# Output: undefined is undefined
+```
