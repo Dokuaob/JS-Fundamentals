@@ -17,3 +17,23 @@ Write a script that prints: JavaScript is amazing
 ### Usage
 
 Run the script with Node.js:
+
+## Task 1: Multi-language Greeting
+
+### Objective
+
+Write a script that prints:
+
+C is fun
+Python is cool
+JavaScript is amazing
+
+### Requirements
+
+- Use `console.log(...)` to print each line
+- Do **not** use `var`
+- Each line should be printed on a new line
+
+### Usage
+
+Run the script with Node.js:
